@@ -1,0 +1,12 @@
+<header>
+    <div class="logo">$ less {% if page.title %}{% if page.layout == 'post' %}blog_post_{{ forloop.index0 | default:
+        page.date | date: "%Y%m%d" }}.md{% else %}{{ page.title | downcase | replace: ' ', '_' }}.md{% endif %}{% else
+        %}sud0x0.com{% endif %}</div>
+    <nav>
+        <ul id="menu">
+            <li><a href="{{ '/' | relative_url }}" {% if page.url=='/' %}class="active" {% endif %}>~/home</a></li>
+            <li><a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active" {% endif
+                    %}>~/about</a></li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,31 @@
+encoding: utf-8
+lang: en-GB
+title: SUD0x0
+description: "Sudhara's Personal Blog"
+baseurl: ""
+url: "https://sud0x0.com"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
+  - LICENSE
