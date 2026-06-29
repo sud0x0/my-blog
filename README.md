@@ -1,7 +1,11 @@
 ## Sud0x0.com
 
-This is my personal blog. This Jekyll theme uses the GNU GENERAL PUBLIC LICENSE. So, if you want to use this theme for your blog, feel free to do so. You will have to remove or edit some files, as this is not in a directly exportable format.
+My personal blog, built with Jekyll.
 
-### How to deploy this in a local environment?
+The theme is licensed under the **MIT License**, so you're welcome to reuse it for your own blog. Note that it isn't in a directly exportable state, so you'll need to remove or edit some files before deploying your own version.
 
-Please check the `Makefile`. Important point to note that is I use Podman instead of Docker.
+### Running locally
+
+See the `Makefile` for the available commands.
+
+> **Note:** This project uses **Podman** instead of Docker.
